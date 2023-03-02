@@ -36,11 +36,6 @@
     background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%);
 }
 
-.container{
-    /* width: 100%; */
-    /* border: 1px solid white; */
-}
-
 h1{
     color: var(--pl-white);
     opacity: 0.75;
@@ -58,6 +53,7 @@ h1{
     border-bottom: 0.35rem solid var(--lt-violet2);
     margin: 1rem 0;
     padding-top: 0.35rem;
+    /* outline: none; */
 }
 
 #display {
@@ -70,7 +66,8 @@ h1{
     line-height: 30px;
     letter-spacing: 1px;
     padding-right: 3.25rem;
-    border:none;
+    border: none;
+    outline: none;
 }
 
 #display::placeholder{
@@ -83,6 +80,7 @@ h1{
     opacity: 0.65;
     font-size: 1.5rem;
     line-height: 30px;
+    border: none;
 }
 
 .copyBtn{
